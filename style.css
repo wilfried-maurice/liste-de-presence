@@ -27,6 +27,7 @@ table{
 .formateur{
   color: #ff0000;
   text-align: center;
+  padding-left: 230px;
 
 
 }
@@ -45,6 +46,9 @@ table{
 
  }
  th{
+   color: hsl(0, 3%, 6%);
+ }
+ .col th{
    color: #fff;
  }
  thead th{
