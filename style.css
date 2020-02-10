@@ -4,38 +4,33 @@ table{
   margin: auto;
 }
 
-
- h2{
-   font-size: 18px;
-   font-style: bold;
- }
-.grid{
-    margin: 0;
-    padding: 0;
-    max-width: 99%;
-    background-color: red;
-    padding: 10px 10px 10px 10px;
-   
- }
-
- p{ 
-   font-size: 18px;
-   color: red;
-   text-align: center;
-   
-   
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  margin-right: 193px;
+  margin-left: 8px;
+  color: #ff0000;
 }
 
- h1{
-   font-size: 15px;
-   color: red;
- }
 
- h3{
-   font-size: 18px;
-   color: red;
-   text-align: center;
- }
+.color{
+	display: flex;
+	justify-content: space-between;
+	height: 2px;
+	width: 49px;
+	border-bottom: 6px solid red;
+	margin-bottom: 45px;
+	margin-left: 8px;
+}
+
+.formateur{
+  color: #ff0000;
+  text-align: center;
+
+
+}
+
  .item{
    height: 5px;
    width: 50px;
@@ -55,19 +50,26 @@ table{
  thead th{
    background-color: red;
  }
-h4{
-  text-align: center;
-  font-style: italic;
+
+ h4{
+   text-align: center;
+ }
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 1px solid;
+  padding: 80px;
+  padding-top: 38px;
+  box-shadow: 1px 3px 4px;
+  margin: 57px 200px 57px 280px;
+  border-top: 25px solid red;
+  background-color: #fff;
+ 
 }
 
- body{
-   box-shadow: 15px 30px 40px;
-   background-color: ffffff;
-   padding: 10px;
-   margin: 300px 300px 500px 200px;
-   font-size: 15px;
-   font-family: 'Open Sans', sans-serif;
-}
 div .item{
   widows: 10px;
   height: 1px;
