@@ -4,9 +4,9 @@ main{
 	margin: 0;
 	padding: 0;
 	border: 1px solid;
-  	padding: 80px;
+  	padding: 50px;
   	padding-top: 38px;
-  	box-shadow: 1px 3px 4px;
+  	box-shadow: 1px 3px 14px;
   	border-top: 25px solid red;
   	background-color: #fff;
  	}
@@ -34,7 +34,7 @@ html{
 .formateur{
   color: #ff0000;
   text-align: center;
-  padding-left: 330px;
+  padding-left: 230px;
 
 }
 
@@ -62,25 +62,26 @@ html{
    color: #fff;
  }
 
- h4{
+ p{
    text-align: center;
+   font-style: italic;
  }
 
 table{
-  border-collapse: collapse;
-  box-shadow: top;
-  background-color: #FFFFFF;
+	border-collapse: collapse;
+	box-shadow: top;
+	background-color: #FFFFFF;
 	margin: 0 auto;
 	padding: auto;
-	min-width: 800px;
-	height: 800;
+	min-width: 700px;
+	height: 700;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   height: 62px;
-  margin-right: 193px;
+  margin-right: 190px;
   margin-left: 8px;
   color: #ff0000;
 }
